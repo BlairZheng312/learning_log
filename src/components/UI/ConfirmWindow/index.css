@@ -1,0 +1,37 @@
+.confirmWindow{
+    width: 350px;
+    height: 150px;
+    background-color:  gainsboro;
+    position: absolute;
+    left:0;
+    right:0;
+    top: 120px;
+    margin: auto;
+}
+
+.confirmText{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.confirmBtn{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.confirmBtn button{
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 6px 10px;
+}
+
+.okBtn{
+    background-color: rgb(187, 78, 59);
+    color: white;
+}

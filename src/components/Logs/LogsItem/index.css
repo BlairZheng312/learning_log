@@ -1,0 +1,36 @@
+.item{
+    background-color:  gainsboro;
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+}
+
+.content{
+    flex: auto;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.subject{
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.time{
+    color: rgb(187, 78, 59);
+}
+
+.delete{
+    margin: 5px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.delete:hover{
+    color:rgb(187, 78, 59);
+    transform: rotate(0.5turn);
+}
